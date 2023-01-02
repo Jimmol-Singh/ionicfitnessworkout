@@ -198,7 +198,7 @@ let footerList3 = [" ",
                     column3.appendChild(ulthree);
                     
 
-footer.appendChild(column1);
+//footer.appendChild(column1);
 footer.appendChild(column2);
 footer.appendChild(column3);
 
