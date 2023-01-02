@@ -1,0 +1,39 @@
+#recommendMenu{
+    list-style: none;
+    
+  }
+
+  #recommendListItem{
+    color: red;
+  }
+
+
+  #linkID{
+    text-decoration: none;
+  }
+   
+  #allRecommeded{
+
+    border-style: none;
+    float: right;
+    
+   
+    width: 14%;
+  }
+
+  #recommendTitle{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif
+   
+  }
+
+  #listItems{
+    text-align: left;
+    
+  }
+
+
+
+#descriptionText{
+font-size: 12px;
+}

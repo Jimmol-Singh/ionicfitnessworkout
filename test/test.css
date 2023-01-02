@@ -1,0 +1,35 @@
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    
+    
+   /* height: 300px;  Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+  }
+  
+  
+  .row{
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+  }
+
+
+  .textContent{
+    color: rgb(255, 254, 254);
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  .textContentTitle{
+    color: rgb(255, 254, 254);
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    
+  }
