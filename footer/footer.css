@@ -20,6 +20,8 @@
   height: 400px;
   width: 100%;
   background-color: black;
+  position:absolute;
+  bottom:0;
 }
 
 #row:after {
@@ -56,3 +58,5 @@
   text-decoration: none;
   color: white;
 }
+
+
