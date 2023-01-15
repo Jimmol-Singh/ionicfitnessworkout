@@ -1,102 +1,31 @@
-//https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/
+let topNavID = document.getElementById("myTopnav");
+let ul = document.createElement("ul");
 
-let navTag = document.getElementById("navbar");
 
-let logoDiv = document.createElement("div");
+let NavItems = [
 
-logoDiv.setAttribute("id","logo");
+"<a href='#news' id='itemList'>News</a>",
+"<a href='#contact'id='itemList'>Contact</a>",
+"<a href='#about'id='itemList'>About</a>",
+"<a href='#home' id='itemList'>Home</a>",
+"<a href='#home' id='websiteLogo'>Ionic Fitness Workout</a>"
 
-navTag.appendChild(logoDiv);
 
+];
 
 
+for(let i = 0; i < NavItems.length; i++){
+let li = document.createElement("li");
 
+li.innerHTML = NavItems[i];
+li.setAttribute("id","listItem");
 
+ul.appendChild(li);
 
+}
 
 
-
-
-let ulNavLink = document.createElement("ul");
-
-ulNavLink.setAttribute("id","nav-links");
-
-
-
-
-
-
-
-
-let websiteTitle = "Ionic Fitness Workout";
-
-
-
-logoDiv.innerHTML = "<a  id = 'workoutLogoId'href='/'>"+ websiteTitle+ "</a>";
-
-
-
-
-
-let menuDiv = document.createElement("div");
-menuDiv.className = "menu";
-
-
-/*/
-
-let navList = [   "<a href='/'>Home</a>",
-                  "<a href='/'>Workout</a>",
-                  "<a href='/'>Nutrition</a>",
-                  "<a href='/'>Equipment</a>",
-                  "<a href='/'>Tutorial</a>"
-            ];
-
-
- */
-
-
-
-            let navList = [   "<a href='/ionicfitnessworkout/index.html'>Home</a>",                  
-            ];
-
-
-
-
-for(let i = 0; i <navList.length; i++){
-
-        let li = document.createElement("li");
-                li.setAttribute("id","navListElement");
-
-                li.innerHTML=navList[i];
-
-                menuDiv.appendChild(li);
-                
-
-         }
-
-ulNavLink.appendChild(menuDiv);
-
-navTag.appendChild(ulNavLink);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+topNavID.appendChild(ul);
 
 
 
