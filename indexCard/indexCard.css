@@ -55,11 +55,9 @@ img {
 
 
 
-ul{
-  text-align: center;
-}
 
-  .cards {
+
+  #cards {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -85,7 +83,7 @@ ul{
   }
 
 
-  .card {
+  #card {
     background-color: white;
     border-radius: 0.25rem;
     /*box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);*/
