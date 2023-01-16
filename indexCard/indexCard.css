@@ -6,7 +6,7 @@ img {
 
   .main{
    
-    width: 75%;
+    width: 10%;
     margin: 0 auto;
     
 
@@ -69,7 +69,7 @@ img {
 
   @media (min-width: 40rem) {
     .cards_item {
-      width: 50%;
+      width: 35%;
     }
   }
 
