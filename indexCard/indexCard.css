@@ -55,6 +55,10 @@ img {
 
 
 
+ul{
+  text-align: center;
+}
+
   .cards {
     display: flex;
     flex-wrap: wrap;
