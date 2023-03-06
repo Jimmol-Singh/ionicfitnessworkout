@@ -3,12 +3,12 @@ let ul = document.createElement("ul");
 
 
 let NavItems = [
-
-"<a href='#news' id='itemList'>News</a>",
-"<a href='#contact'id='itemList'>Contact</a>",
-"<a href='#about'id='itemList'>About</a>",
+"<a href='#news' id='itemList'>Tutorial</a>",
+"<a href='#news' id='itemList'>Tools</a>",
+"<a href='#contact'id='itemList'>Equipments</a>",
+"<a href='#about'id='itemList'>Nutrition</a>",
 "<a href='#home' id='itemList'>Home</a>",
-"<a href='#home' id='websiteLogo'>Ionic Fitness Workout</a>"
+"<a href='#home' id='websiteLogo'>IONIC FITNESS WORKOUT</a>"
 
 
 ];

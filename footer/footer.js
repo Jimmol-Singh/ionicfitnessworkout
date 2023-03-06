@@ -1,4 +1,4 @@
-let footer = document.getElementById("row");
+let footer = document.getElementById("footer");
 
 let column1 = document.createElement("div");
 let column2 = document.createElement("div");
@@ -52,11 +52,9 @@ let footerList1 = ["<p id='serviceTitle'>Service</p><br>",
                   
 
         
-                  let footerList1 = [" ",
-                  " ",
-                  " ",
-                  " ", 
-                  " "];
+                  let footerList1 = ["<p id='serviceTitle'>About</p>",
+                  "Sed est ipsum, euismod in risus venenatis, molestie laoreet nisl. Praesent sit amet scelerisque turpis. Duis ut justo eu mauris congue vestibulum eu quis lacus. Nam at mauris et orci sodales laoreet vitae et felis. Vivamus interdum lacus nisi, vitae imperdiet erat eleifend et."
+                ];
 
                   for(i = 0; i < footerList1.length; i++){
 
@@ -115,12 +113,12 @@ let footerList2 = ["<p id='serviceTitle'>Website</p><br>",
 
 
 
-let footerList2 = ["<p id='serviceTitle'>Website</p><br>",
+let footerList2 = ["<p id='serviceTitle'>Ionic Fitness Workout</p><br>",
 "<a id = 'link' href='https://www.google.com'>Home</a>",
-" ",
-" ",
-" ",
-" ",
+"<a id = 'link' href='https://www.google.com'>Nutrition</a>",
+"<a id = 'link' href='https://www.google.com'>Equipments</a>",
+"<a id = 'link' href='https://www.google.com'>Tools</a>",
+"<a id = 'link' href='https://www.google.com'>Tutorial</a>",
 " ",
 " "];
 
@@ -132,7 +130,7 @@ for(i = 0; i < footerList2.length; i++){
     let li2 = document.createElement("li");
     li2.setAttribute("id","serviceListElement")
     
-    li2.innerHTML="<p>" + footerList2[i] + "</p>" + "<br>";
+    li2.innerHTML="<p>" + footerList2[i] + "</p>";
     
     ultwo.appendChild(li2);
     
@@ -158,19 +156,19 @@ ulthree.setAttribute("id","ulone");
 
 
 
-/*
-let footerList3 = ["<p id='serviceTitle'>Social</p><br>",
+
+let footerList3 = ["<p id='serviceTitle'>Social Media</p><br>",
                   "<a id = 'link' href='https://www.google.com'>Instagram</a>",
                   "<a id = 'link' href='https://www.google.com'>Twitter</a>",
                   "<a id = 'link' href='https://www.google.com'>Tiktok</a>",
                   "<a id = 'link' href='https://www.google.com'>Facebook</a>",
                   "<a id = 'link' href='https://www.google.com'>Newletter</a>"];
 
-*/
 
 
 
 
+/*
 let footerList3 = [" ",
                   " ",
                   " ",
@@ -180,14 +178,14 @@ let footerList3 = [" ",
 
 
 
-
+*/
 
                   for(i = 0; i < footerList3.length; i++){
 
                     let li3 = document.createElement("li");
                     li3.setAttribute("id","serviceListElement")
                     
-                    li3.innerHTML="<p>" + footerList3[i] + "</p>" + "<br>";
+                    li3.innerHTML="<p>" + footerList3[i] + "</p>";
                     
                     ulthree.appendChild(li3);
                     
