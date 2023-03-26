@@ -1,6 +1,6 @@
 let mainNutrition = document.getElementById("mainNutrition");
-let container = document.createElement("div");
-container.setAttribute("id","container");
+let nutritionContainer = document.createElement("div");
+nutritionContainer.setAttribute("id","container");
 
 
 let imag = document.createElement("div");
@@ -37,7 +37,7 @@ textContainer.appendChild(span);
 textContainer.appendChild(h1);
 textContainer.appendChild(p);
 textContainer.appendChild(link);
-container.appendChild(imag);
+nutritionContainer.appendChild(imag);
 
 
 
@@ -45,10 +45,11 @@ container.appendChild(imag);
 
 
 
-container.appendChild(textContainer);
+nutritionContainer.appendChild(textContainer);
+
+mainNutrition.appendChild(nutritionContainer);
 
 
-mainNutrition.appendChild(container);
 
 
 
