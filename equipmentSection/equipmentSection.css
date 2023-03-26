@@ -81,7 +81,7 @@
   #imagEquipment {
     height: 300px;
     width: 100%;
-    background: url("/IndexImage/equipment.png");
+    background: url("/ionicfitnessworkout/IndexImage/equipment.png");
     background-position: 50% 10%;
     background-size: cover;
   }

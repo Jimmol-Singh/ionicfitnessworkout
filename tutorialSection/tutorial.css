@@ -87,7 +87,7 @@
   #imagTutorial {
     height: 300px;
     width: 100%;
-    background: url("/tutorialSection/tutorial.png");
+    background: url("/ionicfitnessworkout/tutorialSection/tutorial.png");
     background-position: 50% 10%;
     background-size: cover;
   }
