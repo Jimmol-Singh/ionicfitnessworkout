@@ -115,7 +115,7 @@ img {
 
   #bannerimage {
   width: 100%;
-  background-image: url('/ionicfitnessworkout/workoutimage/abs3.png');
+  background-image: url('/workoutimage/abs3.png');
   height: 405px;
   background-color: #354ce4;
   background-size: contain;
@@ -130,8 +130,8 @@ img {
 
 .centered {
   position: absolute;
-  top: 70%;
-  left: 50%;
+  top: 50vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
 }
 
