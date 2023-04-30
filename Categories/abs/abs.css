@@ -138,27 +138,34 @@ img {
 
 */
 
-  position: absolute;
-  top: 30%;
-  left: 50vw;
-  transform: translate(-50%, -50%);
+ 
 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+
+
+  
 
 
 }
 
 
+
 #centerImageText{
     position: relative;
+    top: 30%;
     font-size: 300%;
     font-weight: bold;
-    color: rgb(153, 153, 153);
+    color: rgb(255, 0, 0);
     
 }
 
 
 .textContent{
-  color: rgb(138, 138, 138);
+  color: rgb(255, 0, 0);
   text-align: center;
   font-family: arial;
   
