@@ -149,7 +149,7 @@ img {
 
 
 #centerImageText{
-    position: absolute;
+    position: relative;
     font-size: 300%;
     font-weight: bold;
     color: rgb(6, 232, 48);
