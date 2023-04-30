@@ -151,13 +151,13 @@ img {
 #centerImageText{
     font-size: 300%;
     font-weight: bold;
-    color: red;
+    color: green;
     
 }
 
 
 .textContent{
-  color: red;
+  color: green;
   text-align: center;
   font-family: arial;
   
