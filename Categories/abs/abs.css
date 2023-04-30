@@ -139,7 +139,7 @@ img {
 */
 
   position: absolute;
-  top: 70%;
+  top: 30%;
   left: 50vw;
   transform: translate(-50%, -50%);
 
@@ -151,13 +151,13 @@ img {
 #centerImageText{
     font-size: 300%;
     font-weight: bold;
-    color: green;
+    color: rgb(0, 128, 124);
     
 }
 
 
 .textContent{
-  color: green;
+  color: rgb(128, 0, 92);
   text-align: center;
   font-family: arial;
   
