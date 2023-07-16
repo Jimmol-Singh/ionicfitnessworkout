@@ -1,3 +1,4 @@
+
 /* Font */
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
@@ -18,7 +19,7 @@ body {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0;
-
+  padding: 1rem;
 }
 
 .main{
@@ -128,6 +129,12 @@ img {
 
 
 
+
+
+
+
+
+
 .centered {
 
   position: relative;
@@ -160,10 +167,14 @@ img {
     
 }
 
-
+/*
+.topnav a.active {
+  background-color: #d76f1f;
+  color: white;
+}
+*/
 .textContent{
-  
-  color: rgb(73, 86, 40);
+  color: white;
   text-align: center;
   font-family: arial;
   
@@ -171,3 +182,5 @@ img {
 
 
 
+
+    
